@@ -1,0 +1,37 @@
+{
+  "name": "koishi-plugin-worker-proxy",
+  "description": "Proxy Request By Worker",
+  "version": "0.0.2",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "author": "CN-traveler <cn-traveler@outlook.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CN-traveler/koishi-plugin-worker-proxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/CN-traveler/koishi-plugin-worker-proxy/issues"
+  },
+  "homepage": "https://github.com/CN-traveler/koishi-plugin-worker-proxy",
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin",
+    "proxy"
+  ],
+  "koishi": {
+    "browser": true,
+    "description": {
+      "en": "Proxy Request By Worker",
+      "zh": "Worker 代理"
+    }
+  },
+  "peerDependencies": {
+    "koishi": "^4.11.7"
+  }
+}
